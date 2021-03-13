@@ -1,0 +1,18 @@
+.Container {
+  margin: 15px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 2.3px 4.4px 25.7px 1.4px rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Separator {
+  width: 100%;
+  border-bottom: 2px rgba(191,191,191, 0.25) solid;
+  margin: 10px 0;
+}

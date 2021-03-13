@@ -1,0 +1,28 @@
+$hover-color: #4fc3ff;
+$selected-color: #DCDCDC;
+
+.Option-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 400;
+  cursor: pointer;
+
+  &:hover {
+    fill: $hover-color;
+    color: $hover-color;
+  }
+}
+
+.Option-container-selected {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 400;
+  color: $selected-color;
+  fill: $selected-color;
+}

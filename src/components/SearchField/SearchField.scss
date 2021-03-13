@@ -1,0 +1,7 @@
+.Search {
+  margin: 25px 0 15px;
+  font-size: 15px;
+  &::placeholder {
+    color: rgba(191,191,191, 0.7);
+  }
+}
